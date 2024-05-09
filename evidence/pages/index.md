@@ -13,6 +13,11 @@ title: Welcome to Evidenc
   group by category
 ```
 
+```sql orders_by_month
+select * from lego_inventories.inventories
+
+
+
 <Dropdown data={categories} name=category value=category>
     <DropdownOption value="%" valueLabel="All Categories"/>
 </Dropdown>
